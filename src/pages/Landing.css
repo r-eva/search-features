@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid blueviolet;
+    margin: 0 5px
+}
+
+form input[type="number"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid blueviolet;
+    margin: 0 5px
+}
+
+form input[type="checkbox"] {
+    margin: 0 5px
+}
+
+label {
+    margin: 0 5px
+}
+
+form button {
+    padding: 10px;
+    background: blueviolet;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin: 0, 5px
+}
+
+form button:hover {
+    background: burlywood;
+}
+
+.tour-box {
+    padding: 20px;
+    border: 2px solid blueviolet;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.container-content {
+    display: grid;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px;
+}
+
+.special-offer {
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(41, 175, 0);
+    color: red;
+}
