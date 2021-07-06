@@ -71,7 +71,7 @@ const Landing = () => {
     }
     return (
         <div>
-            <h1 style={{textAlign: 'center'}}>Welcome to GetYourGuide</h1>
+            <h1 style={{textAlign: 'center'}}>Welcome to Our Tour</h1>
             <section className="container">
                 <form>
                 <input type="text" placeholder="Search for tour..." name="search" onChange={(e) => setInputUser({...inputUser, title: e.target.value})}/>
